@@ -6,6 +6,7 @@ Fortunately I am learning data science and I have all tools for split news to cl
 In first part of my project I have uploaded 4k posts from ia_panorama and 4k from rt_russia.
 1. Prepeared data (clean from data leak and etc.) in 'make_data.ipynb' 
 2. Make neural network based on bert layer, pretrained on russian texts 'NN.ipynb'
+Due to a lack of computational power, I trained the neural network only for 10 epochs.
 3. Extract features and test our base model on test data 'make_features.ipynb'
 4. Improve this using XGBoost and meta features 'xgb.ipunb'
 
